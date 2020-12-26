@@ -3,3 +3,7 @@
 
 #ignore java class
 *.class
+
+#ignore temp file 
+tempCodeRunnerFile.c 
+tempCodeRunnerFile.py
