@@ -11,9 +11,10 @@ int main(){
             gets(str);
             int l=strlen(str);
             for(i=0;i<l;i++){
-                if(str[i]>='a' && str[i]<='z' || str[i]>='a' && str[i]<='z'){
+                if(str[i]>='a' && str[i]<='z' || str[i]>='A' && str[i]<='Z'){
                     str[i]+=3;
                 }
+            }
                 int count=0;
                 for(j=l-1;j>=0;j--){
                     str1[count]=str[j];
@@ -31,4 +32,4 @@ int main(){
 
         }
 
-    }
+    
