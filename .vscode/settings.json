@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "1006.C": "cpp"
+        "1006.C": "cpp",
+        "string.h": "c"
     }
 }
